@@ -367,6 +367,64 @@ body{
     color: #1b3d27;
 }
 
+.projects-gallery {
+    max-width: 1100px;
+    margin: 40px auto 80px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.projects-gallery h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.8rem;
+    color: #2f5d49;
+    margin-bottom: 15px;
+}
+
+.projects-gallery p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.1rem;
+    color: #3a4a3a;
+    margin-bottom: 40px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.project-card {
+    background: #ebe1cd;
+    border: 2px solid #2f5d49;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(47, 93, 73, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(47, 93, 73, 0.3);
+}
+.project-card img {
+    width: 100%;      
+    height: auto;      
+    object-fit: contain;  
+    border-radius: 12px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+}
+.project-card h3 {
+    font-family: 'Quicksand', sans-serif;
+    color: #2f5d49;
+    font-size: 1.25rem;
+    margin: 0;
+    user-select: none;
+}
+
+
+
+
 
 
 
